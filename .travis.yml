@@ -38,4 +38,4 @@ env:
 
 # Publish a SNAPSHOT build for all commits to master.
 script:
-  - ./gradlew --continue verifyGoogleJavaFormat build connectedCheck
+  - ./gradlew build
